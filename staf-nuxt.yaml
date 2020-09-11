@@ -2,6 +2,7 @@ name: staf-nuxt
 region: ams3
 static_sites:
 - environment_slug: html
+  index_document: dist/index.html
   git:
     branch: master
     repo_clone_url: https://github.com/staf/staf-nuxt.git
