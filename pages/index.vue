@@ -3,8 +3,9 @@
     <div>
       <Logo />
       <h1 class="title">
-        staf-next
+        staf.io
       </h1>
+      <img src="~assets/cottage.jpg" alt="Cottage">
       <div class="links">
         <a
           href="https://nuxtjs.org/"
