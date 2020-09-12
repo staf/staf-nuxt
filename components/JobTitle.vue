@@ -12,7 +12,9 @@
           'Developer',
           'Dad',
           'PHP Programmer',
-          'Home brewer',
+          'Home Brewer',
+          'Web Developer',
+          'Gardener',
         ],
         index: 0,
       };
