@@ -1,16 +1,16 @@
 <template>
-  <block class="mt-12 mb-4">
+  <block class="m-4 lg:mt-8 xl:mt-12 xl:mx-auto">
 
-    <div class="flex flex-row items-center p-6">
-      <h1 class="text-3xl mr-auto">Linus Staf</h1>
+    <div class="md:flex md:flex-row items-center p-6">
+      <h1 class="text-3xl mb-3 md:mb-0 md:mr-auto">Linus Staf</h1>
       <p>
         Software Engineer @ <a href="https://zalster.com/" target="_blank" style="color: #00c885">Zalster AB</a>
       </p>
     </div>
 
-    <div class="flex flex-row flex-no-wrap items-center border-t border-gray-400">
+    <div class="lg:flex lg:flex-row flex-no-wrap items-center border-t border-gray-400">
 
-      <div class="w-2/3 p-6 border-r border-gray-400">
+      <div class="lg:w-2/3 p-6 lg:border-r border-gray-400">
         <p class="mb-6">
           Hello! I am a web developer living with my girlfriend and son in Sweden.
         </p>
@@ -23,7 +23,7 @@
         </p>
       </div>
 
-      <div class="w-1/3 m-6 text-center">
+      <div class="lg:w-1/3 m-6 lg:text-center">
         <p>
           Over five years of professional experience and 2 decades of tinkering with websites and code.
         </p>
