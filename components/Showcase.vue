@@ -26,7 +26,7 @@
         </div>
 
         <a href="https://axtveten.se" class="ml-auto">
-          <btn>https://axtveten.se</btn>
+          <btn>axtveten.se</btn>
         </a>
       </div>
     </block>
