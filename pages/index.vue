@@ -1,76 +1,28 @@
 <template>
-  <div class="container">
-    <div>
-      <Logo />
-      <h1 class="title">
-        staf.io
-      </h1>
-      <img src="~assets/cottage.jpg" alt="Cottage">
-      <div class="links">
-        <a
-          href="https://nuxtjs.org/"
-          target="_blank"
-          rel="noopener noreferrer"
-          class="button--green"
-        >
-          Documentation
-        </a>
-        <a
-          href="https://github.com/nuxt/nuxt.js"
-          target="_blank"
-          rel="noopener noreferrer"
-          class="button--grey"
-        >
-          GitHub
-        </a>
-      </div>
-    </div>
+  <div class="page">
+    <PageMain class="page-main"/>
+    <PageExtra class="page-extra"/>
+    <PageSidebar class="page-sidebar"/>
   </div>
 </template>
 
-<script lang="ts">
-import Vue from 'vue'
-
-export default Vue.extend({})
-</script>
-
 <style>
-.container {
-  margin: 0 auto;
-  min-height: 100vh;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
-}
+  .page {
+    min-height: 100vh;
+    display: grid;
+    grid-template-areas: "main extra sidebar";
+    grid-template-columns: 2fr 1fr auto;
+  }
 
-.title {
-  font-family:
-    'Quicksand',
-    'Source Sans Pro',
-    -apple-system,
-    BlinkMacSystemFont,
-    'Segoe UI',
-    Roboto,
-    'Helvetica Neue',
-    Arial,
-    sans-serif;
-  display: block;
-  font-weight: 300;
-  font-size: 100px;
-  color: #35495e;
-  letter-spacing: 1px;
-}
+  .page-main {
+    grid-area: main;
+  }
 
-.subtitle {
-  font-weight: 300;
-  font-size: 42px;
-  color: #526488;
-  word-spacing: 5px;
-  padding-bottom: 15px;
-}
+  .page-extra {
+    grid-area: extra;
+  }
 
-.links {
-  padding-top: 15px;
-}
+  .page-sidebar {
+    grid-area: sidebar;
+  }
 </style>
