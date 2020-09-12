@@ -13,6 +13,6 @@
         tempore voluptas, voluptates?
       </p>
     </block>
-    <p class="mt-auto text-center text-gray-700 py-6">&copy; 2020 Linus Staf</p>
+    <p class="mt-auto text-center text-gray-700 py-6">&copy; {{ new Date().getFullYear() }} Linus Staf</p>
   </main>
 </template>
