@@ -4,7 +4,7 @@
     <div class="md:flex md:flex-row items-center p-6">
       <h1 class="text-3xl mb-3 md:mb-0 md:mr-auto">Linus Staf</h1>
       <p>
-        Developer @ <a href="https://rattspar.se/" target="_blank" style="color: #88c86f">Rätt Spår i Uppsala AB</a>
+        Developer @ <a href="https://www.trinax.se/" target="_blank" style="color: #0d6f99">Trinax AB</a>
       </p>
     </div>
 
