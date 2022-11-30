@@ -16,19 +16,6 @@
 
     </div>
 
-    <block class="mx-4 md:mx-0 text-center md:text-left">
-      <div class="md:flex flex-row items-center p-6">
-        <div>
-          <h4 class="text-xl mb-3">Axtvetens Utveckling AB</h4>
-          <p>I also have a company with which I have done some contracting with.</p>
-        </div>
-
-        <a href="https://axtveten.se" class="inline-block mt-3 md:mt-0 md:ml-auto">
-          <btn>axtveten.se</btn>
-        </a>
-      </div>
-    </block>
-
     <p class="mt-auto py-12 text-center text-gray-700">&copy; {{ new Date().getFullYear() }} Linus Staf</p>
   </div>
 </template>
